@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "venture-pipeline"
+version = "0.1.0"
+description = "Replayable AI-augmented investment triage pipeline for seed-stage startup sourcing."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Assignment Submission" }]
+dependencies = []
+
+[project.scripts]
+venture-pipeline = "venture_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["venture_pipeline*"]

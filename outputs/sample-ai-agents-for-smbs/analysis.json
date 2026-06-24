@@ -1,0 +1,1657 @@
+[
+  {
+    "candidate": {
+      "name": "Toothy AI",
+      "website": "https://www.toothy.ai/",
+      "one_liner": "AI for insurance verification & billing at dental clinics",
+      "team_signal": "YC Winter 2025, team size 15, Early, Healthcare",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "Hiring signal on YC profile",
+        "YC launched/listed date: 2025-01-07",
+        "Team size listed as 15"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/toothy-ai",
+      "tags": [
+        "Artificial Intelligence",
+        "Health Tech",
+        "Healthcare",
+        "Dental",
+        "Conversational AI",
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "Toothy AI",
+          "url": "https://www.ycombinator.com/companies/toothy-ai",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "We're Toothy.ai. We're building AI agents for dental practices that handle everything related to patient insurance. The average dental clinic spends over 160 hours a month on insurance tasks like verifying patient policies, billing, and claims processing. Our AI agents automate this entire workflow - including making...",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 15,
+            "industry": "Healthcare",
+            "tags": [
+              "Artificial Intelligence",
+              "Health Tech",
+              "Healthcare",
+              "Dental",
+              "Conversational AI"
+            ],
+            "website": "https://www.toothy.ai/"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30218,
+        "name": "Toothy AI",
+        "slug": "toothy-ai",
+        "former_names": [
+          "Toothy"
+        ],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1fe65dd62e91bce60fafd27b8e4bea680f8db7d3.png",
+        "website": "https://www.toothy.ai/",
+        "all_locations": "San Francisco, CA, USA",
+        "long_description": "We\u2019re Toothy.ai.  We\u2019re building AI agents for dental practices that handle everything related to patient insurance. The average dental clinic spends over 160 hours a month on insurance tasks like verifying patient policies, billing, and claims processing. Our AI agents automate this entire workflow\u2014including making insurance calls with voice AI\u2014saving clinics time, reducing costs, and ensuring faster reimbursements.",
+        "one_liner": "AI for insurance verification & billing at dental clinics",
+        "team_size": 15,
+        "industry": "Healthcare",
+        "subindustry": "Healthcare -> Healthcare IT",
+        "launched_at": 1736273040,
+        "tags": [
+          "Artificial Intelligence",
+          "Health Tech",
+          "Healthcare",
+          "Dental",
+          "Conversational AI"
+        ],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": true,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "Healthcare",
+          "Healthcare IT"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada",
+          "Remote",
+          "Partly Remote"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": false,
+        "url": "https://www.ycombinator.com/companies/toothy-ai",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/toothy-ai.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 15, Early, Healthcare. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "Toothy AI: We're Toothy.ai. We're building AI agents for dental practices that handle everything related to patient insurance. The average dental clinic spends over 160 hours a month on insurance tasks like verifying patient policies, billing, and claims processing. Our AI agents automate this entire workflow - including making insurance calls with voice AI - saving clinics time, reducing costs, and ensuring faster...",
+    "market": "The beachhead is Healthcare. Tags/signals: Artificial Intelligence, Health Tech, Healthcare, Dental, Conversational AI. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification."
+    ],
+    "score": {
+      "team": 10,
+      "product": 25,
+      "market": 14,
+      "traction": 19,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 15."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: agents, ai, artificial, automate, intelligence.",
+          "Product appears tied to a concrete vertical workflow.",
+          "Matches topic terms: agents, ai, artificial, automate, intelligence, workflow."
+        ],
+        "market": [
+          "Vertical workflow suggests a reachable beachhead market.",
+          "Workflow touches budget-owning or ROI-visible operations.",
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Hiring appears in source signals.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 83
+    },
+    "recommendation": "Take a meeting",
+    "rationale": "Score 83/100 clears the meeting bar because the company shows a recent, vertical workflow wedge with enough source-level traction to justify founder diligence.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "A credible answer to why incumbents or services firms cannot copy the workflow quickly."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "Mastra",
+      "website": "https://mastra.ai",
+      "one_liner": "The Javascript framework for building AI agents, from the Gatsby devs",
+      "team_signal": "YC Winter 2025, team size 30, Early, B2B",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "YC launched/listed date: 2025-01-17",
+        "Team size listed as 30"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/mastra",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Open Source",
+        "AI",
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "Mastra",
+          "url": "https://www.ycombinator.com/companies/mastra",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "Mastra is the easiest way to build a production AI application, built by the team that brought you Gatsby. We provide a complete set of AI primitives: workflows for complex operations, agents for autonomous decisions, RAG for knowledge integration, and evals for quality & accuracy. Mastra is open-source, modular, and...",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 30,
+            "industry": "B2B",
+            "tags": [
+              "Artificial Intelligence",
+              "Developer Tools",
+              "Open Source",
+              "AI"
+            ],
+            "website": "https://mastra.ai"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30304,
+        "name": "Mastra",
+        "slug": "mastra",
+        "former_names": [],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a6e5f319cbd11b23e8938be90ed120209a914c0a.png",
+        "website": "https://mastra.ai",
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "long_description": "Mastra is the easiest way to build a production AI application, built by the team that brought you Gatsby. We provide a complete set of AI primitives: workflows for complex operations, agents for autonomous decisions, RAG for knowledge integration, and evals for quality & accuracy. Mastra is open-source, modular, and built in Typescript for product developers. You can deploy Mastra on any cloud, and it gives you a straightforward syntax to solve the hardest problems building with AI: human-in-the-loop workflows, agent memory and tool selection, and output quality. ",
+        "one_liner": "The Javascript framework for building AI agents, from the Gatsby devs",
+        "team_size": 30,
+        "industry": "B2B",
+        "subindustry": "B2B -> Engineering, Product and Design",
+        "launched_at": 1737136768,
+        "tags": [
+          "Artificial Intelligence",
+          "Developer Tools",
+          "Open Source",
+          "AI"
+        ],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": false,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "B2B",
+          "Engineering, Product and Design"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada",
+          "Remote",
+          "Fully Remote"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": false,
+        "url": "https://www.ycombinator.com/companies/mastra",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/mastra.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 30, Early, B2B. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "Mastra: Mastra is the easiest way to build a production AI application, built by the team that brought you Gatsby. We provide a complete set of AI primitives: workflows for complex operations, agents for autonomous decisions, RAG for knowledge integration, and evals for quality & accuracy. Mastra is open-source, modular, and built in Typescript for product developers. You can deploy Mastra on any cloud, and it gives...",
+    "market": "The beachhead is B2B. Tags/signals: Artificial Intelligence, Developer Tools, Open Source, AI, B2B. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification."
+    ],
+    "score": {
+      "team": 13,
+      "product": 24,
+      "market": 14,
+      "traction": 16,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 30.",
+          "Description suggests technical depth or automation competence."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: agents, ai, artificial, intelligence.",
+          "Product appears tied to a concrete vertical workflow.",
+          "Matches topic terms: agents, ai, artificial, intelligence."
+        ],
+        "market": [
+          "Vertical workflow suggests a reachable beachhead market.",
+          "Workflow touches budget-owning or ROI-visible operations.",
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 82
+    },
+    "recommendation": "Take a meeting",
+    "rationale": "Score 82/100 clears the meeting bar because the company shows a recent, vertical workflow wedge with enough source-level traction to justify founder diligence.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "A credible answer to why incumbents or services firms cannot copy the workflow quickly."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "Dex",
+      "website": "https://joindex.com",
+      "one_liner": "The AI Coworker in Chrome",
+      "team_signal": "YC Winter 2025, team size 2, Early, B2B",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "Hiring signal on YC profile",
+        "YC launched/listed date: 2025-01-18",
+        "Team size listed as 2"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/joindex",
+      "tags": [
+        "Artificial Intelligence",
+        "Productivity",
+        "Consumer Products",
+        "AI",
+        "B2B",
+        "Productivity"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "Dex",
+          "url": "https://www.ycombinator.com/companies/joindex",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "ThirdLayer is an applied research and product lab building the next interface for human - AI collaboration. Our first product is Dex, an AI copilot for the browser. Think Cursor for knowledge work, optimized for speed and embedded directly where you work. Most web agents are built for set-and-forget tasks. But real wo...",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 2,
+            "industry": "B2B",
+            "tags": [
+              "Artificial Intelligence",
+              "Productivity",
+              "Consumer Products",
+              "AI"
+            ],
+            "website": "https://joindex.com"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30351,
+        "name": "Dex",
+        "slug": "joindex",
+        "former_names": [
+          "Dexterity",
+          "Dex",
+          "Dexterity AI",
+          "Dexterity",
+          "Dex",
+          "ThirdLayer"
+        ],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/aac79d12169377e5c2a4f0dfc5863cb25ef3beb7.png",
+        "website": "https://joindex.com",
+        "all_locations": "San Francisco, CA, USA",
+        "long_description": "ThirdLayer is an applied research and product lab building the next interface for human\u2013AI collaboration.\r\n\r\nOur first product is Dex, an AI copilot for the browser. Think Cursor for knowledge work, optimized for speed and embedded directly where you work.\r\n\r\nMost web agents are built for set-and-forget tasks. But real work is fluid and messy\u2014spread across tabs, tools, and evolving decisions. Dex transforms your browser into an intelligent, multimodal workspace that understands your intent through voice, text, and action. It enhances familiar interfaces, automates tedious steps, and removes the friction of handoffs.\r\n\r\nBeneath the surface, Dex is more than a browser agent \u2014 it\u2019s a foundation for:\r\n\r\n\u25cf Long-term, cross-modal memory grounded in real workflows\r\n\u25cf A new interaction layer to replace static UI with a collaborative canvas \r\n\u25cf Personalization: understanding how individuals approach tasks and navigate software\r\n\r\nWe're building the infrastructure for adaptive, intent-aware systems that work the way you do.",
+        "one_liner": "The AI Coworker in Chrome",
+        "team_size": 2,
+        "industry": "B2B",
+        "subindustry": "B2B -> Productivity",
+        "launched_at": 1737217789,
+        "tags": [
+          "Artificial Intelligence",
+          "Productivity",
+          "Consumer Products",
+          "AI"
+        ],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": true,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "B2B",
+          "Productivity"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": false,
+        "url": "https://www.ycombinator.com/companies/joindex",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/joindex.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 2, Early, B2B. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "Dex: ThirdLayer is an applied research and product lab building the next interface for human - AI collaboration. Our first product is Dex, an AI copilot for the browser. Think Cursor for knowledge work, optimized for speed and embedded directly where you work. Most web agents are built for set-and-forget tasks. But real work is fluid and messy - spread across tabs, tools, and evolving decisions. Dex transforms your...",
+    "market": "The beachhead is B2B. Tags/signals: Artificial Intelligence, Productivity, Consumer Products, AI, B2B. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification."
+    ],
+    "score": {
+      "team": 14,
+      "product": 24,
+      "market": 9,
+      "traction": 19,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 2.",
+          "Team size looks seed-stage and focused."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: agents, ai, artificial, intelligence.",
+          "Product appears tied to a concrete vertical workflow.",
+          "Matches topic terms: agents, ai, artificial, intelligence."
+        ],
+        "market": [
+          "Vertical workflow suggests a reachable beachhead market.",
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Hiring appears in source signals.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 81
+    },
+    "recommendation": "Take a meeting",
+    "rationale": "Score 81/100 clears the meeting bar because the company shows a recent, vertical workflow wedge with enough source-level traction to justify founder diligence.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "A credible answer to why incumbents or services firms cannot copy the workflow quickly."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "hud",
+      "website": "https://www.hud.ai",
+      "one_liner": "Platform for building RL environments and evals",
+      "team_signal": "YC Winter 2025, team size 15, Early, B2B",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "Hiring signal on YC profile",
+        "YC launched/listed date: 2025-03-02",
+        "Team size listed as 15"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/hud",
+      "tags": [
+        "Artificial Intelligence",
+        "Reinforcement Learning",
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "hud",
+          "url": "https://www.ycombinator.com/companies/hud",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "HUD (YC W25) is developing agentic evals and RL environments for Computer Use Agents (CUAs) that browse the web for frontier AI labs. Our CUA Evals framework is the first comprehensive evaluation tool for CUAs. People don't actually know if AI agents are working reliably. To make AI agents work in the real world, we n...",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 15,
+            "industry": "B2B",
+            "tags": [
+              "Artificial Intelligence",
+              "Reinforcement Learning"
+            ],
+            "website": "https://www.hud.ai"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30254,
+        "name": "hud",
+        "slug": "hud",
+        "former_names": [
+          "Human Union Data",
+          "hud",
+          "HUD"
+        ],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/53fffc4904f866d9d44ba9a47862b594f1d45667.png",
+        "website": "https://www.hud.ai",
+        "all_locations": "San Francisco, CA, USA",
+        "long_description": "HUD (YC W25) is developing agentic evals and RL environments for Computer Use Agents (CUAs) that browse the web for frontier AI labs. Our CUA Evals framework is the first comprehensive evaluation tool for CUAs.\r\n\r\nPeople don't actually know if AI agents are working reliably. To make AI agents work in the real world, we need detailed evals for a huge range of tasks.\r\n\r\nWe're backed by Y Combinator, and work closely with frontier AI labs to provide agent evaluation and training infrastructure at scale.",
+        "one_liner": "Platform for building RL environments and evals ",
+        "team_size": 15,
+        "industry": "B2B",
+        "subindustry": "B2B -> Engineering, Product and Design",
+        "launched_at": 1740930546,
+        "tags": [
+          "Artificial Intelligence",
+          "Reinforcement Learning"
+        ],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": true,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "B2B",
+          "Engineering, Product and Design"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada",
+          "Remote",
+          "Partly Remote"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": false,
+        "url": "https://www.ycombinator.com/companies/hud",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/hud.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 15, Early, B2B. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "hud: HUD (YC W25) is developing agentic evals and RL environments for Computer Use Agents (CUAs) that browse the web for frontier AI labs. Our CUA Evals framework is the first comprehensive evaluation tool for CUAs. People don't actually know if AI agents are working reliably. To make AI agents work in the real world, we need detailed evals for a huge range of tasks. We're backed by Y Combinator, and work closely wi...",
+    "market": "The beachhead is B2B. Tags/signals: Artificial Intelligence, Reinforcement Learning, B2B, Engineering, Product and Design. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification.",
+      "The current evidence does not yet prove urgency, buyer pull, or differentiated distribution."
+    ],
+    "score": {
+      "team": 10,
+      "product": 24,
+      "market": 9,
+      "traction": 19,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 15."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: agents, ai, artificial, intelligence.",
+          "Product appears tied to a concrete vertical workflow.",
+          "Matches topic terms: agents, ai, artificial, intelligence."
+        ],
+        "market": [
+          "Vertical workflow suggests a reachable beachhead market.",
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Hiring appears in source signals.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 77
+    },
+    "recommendation": "Watch",
+    "rationale": "Score 77/100 suggests the company matches parts of the thesis, but the public evidence is not yet strong enough for immediate partner time.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "Evidence that the workflow expands beyond a narrow tool into a system of record or labor-replacement wedge."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "Leaping AI",
+      "website": "https://www.leapingai.com",
+      "one_liner": "AI voice and texting agents",
+      "team_signal": "YC Winter 2025, team size 11, Early, B2B",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "Hiring signal on YC profile",
+        "YC launched/listed date: 2025-01-13",
+        "Team size listed as 11"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/leaping-ai",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Conversational AI",
+        "B2B"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "Leaping AI",
+          "url": "https://www.ycombinator.com/companies/leaping-ai",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "Leaping AI is the best platform to deploy voice and texting AI agents for customer service, lead qualification and appointment scheduling. We target mid-market and Enterprise companies and industries are: home remodeling, roofing, pay per call, travel, retail, health insurance, Medicare, health and real estate. We aut...",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 11,
+            "industry": "B2B",
+            "tags": [
+              "Artificial Intelligence",
+              "B2B",
+              "Conversational AI"
+            ],
+            "website": "https://www.leapingai.com"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30181,
+        "name": "Leaping AI",
+        "slug": "leaping-ai",
+        "former_names": [],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2cf89546e97aa00342fd94e13a639b43add977d5.png",
+        "website": "https://www.leapingai.com",
+        "all_locations": "San Francisco, CA, USA",
+        "long_description": "Leaping AI is the best platform to deploy voice and texting AI agents for customer service, lead qualification and appointment scheduling. We target mid-market and Enterprise companies and industries are: home remodeling, roofing, pay per call, travel, retail, health insurance, Medicare, health and real estate.\r\n\r\nWe automated contact centers employing >100 human agents and now handle their incoming customer support and appointment scheduling calls, end-to-end. All while maintaining 90% customer satisfaction score.\r\n\r\nPain points that we solve: missed calls, insufficient speed to lead, not enough call center resources, call center inefficiencies, agents not sticking to the script, etc.\r\n\r\nAt its core, we have a multi-channel outreach campaign feature, whereby our customers can call and text potential leads over an arbitrary time period. If end customers call or text back, the Leaping voice or text AI agent can autonomously schedule appointments and resolve service requests.\r\n\r\nSome of our differentiating features: most-human like voice in the market, CRM integrations in place (Salesforce, Hubspot, MarketSharp, AccuLynx, JobNimbus, LeadPerfection, Google, etc.) and white-glove onboarding (in-person for larger accounts). Our AI agents can hold 100+ conversations at once, speak multiple languages and be equipped with company specific FAQ. Lastly, we have our own number health monitoring and DNC software.",
+        "one_liner": "AI voice and texting agents",
+        "team_size": 11,
+        "industry": "B2B",
+        "subindustry": "B2B",
+        "launched_at": 1736780951,
+        "tags": [
+          "Artificial Intelligence",
+          "B2B",
+          "Conversational AI"
+        ],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": true,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "B2B"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada",
+          "Remote",
+          "Partly Remote"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": true,
+        "url": "https://www.ycombinator.com/companies/leaping-ai",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/leaping-ai.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 11, Early, B2B. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "Leaping AI: Leaping AI is the best platform to deploy voice and texting AI agents for customer service, lead qualification and appointment scheduling. We target mid-market and Enterprise companies and industries are: home remodeling, roofing, pay per call, travel, retail, health insurance, Medicare, health and real estate. We automated contact centers employing >100 human agents and now handle their incoming custome...",
+    "market": "The beachhead is B2B. Tags/signals: Artificial Intelligence, B2B, Conversational AI, B2B. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification.",
+      "The current evidence does not yet prove urgency, buyer pull, or differentiated distribution."
+    ],
+    "score": {
+      "team": 10,
+      "product": 24,
+      "market": 9,
+      "traction": 19,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 11."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: agents, ai, artificial, intelligence.",
+          "Product appears tied to a concrete vertical workflow.",
+          "Matches topic terms: agents, ai, artificial, intelligence."
+        ],
+        "market": [
+          "Vertical workflow suggests a reachable beachhead market.",
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Hiring appears in source signals.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 77
+    },
+    "recommendation": "Watch",
+    "rationale": "Score 77/100 suggests the company matches parts of the thesis, but the public evidence is not yet strong enough for immediate partner time.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "Evidence that the workflow expands beyond a narrow tool into a system of record or labor-replacement wedge."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "Closure",
+      "website": "https://closure-intel.com/",
+      "one_liner": "We help law enforcement solve crime",
+      "team_signal": "YC Winter 2025, team size 10, Early, Government",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "Hiring signal on YC profile",
+        "YC launched/listed date: 2025-02-18",
+        "Team size listed as 10"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/closure",
+      "tags": [
+        "Artificial Intelligence",
+        "GovTech",
+        "Government"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "Closure",
+          "url": "https://www.ycombinator.com/companies/closure",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "Law enforcement is drowning in data. Closure helps search it to solve crime. - Hiring: UX, Engineering, AI, Ops, Business Development - Supporting: law enforcement throughout the country - Expanding: Local, state, and federal law enforcement.",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 10,
+            "industry": "Government",
+            "tags": [
+              "Artificial Intelligence",
+              "GovTech"
+            ],
+            "website": "https://closure-intel.com/"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30209,
+        "name": "Closure",
+        "slug": "closure",
+        "former_names": [],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c5b9a8ffa191d64a12f160ab46ed4cf4f2dd85dc.png",
+        "website": "https://closure-intel.com/",
+        "all_locations": "New York, NY, USA",
+        "long_description": "Law enforcement is drowning in data. Closure helps search it to solve crime.\r\n\r\n- Hiring: UX, Engineering, AI, Ops, Business Development\r\n- Supporting: law enforcement throughout the country\r\n- Expanding: Local, state, and federal law enforcement.",
+        "one_liner": "We help law enforcement solve crime",
+        "team_size": 10,
+        "industry": "Government",
+        "subindustry": "Government",
+        "launched_at": 1739862740,
+        "tags": [
+          "Artificial Intelligence",
+          "GovTech"
+        ],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": true,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "Government"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": false,
+        "url": "https://www.ycombinator.com/companies/closure",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/closure.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 10, Early, Government. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "Closure: Law enforcement is drowning in data. Closure helps search it to solve crime. - Hiring: UX, Engineering, AI, Ops, Business Development - Supporting: law enforcement throughout the country - Expanding: Local, state, and federal law enforcement.",
+    "market": "The beachhead is Government. Tags/signals: Artificial Intelligence, GovTech, Government. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification.",
+      "The current evidence does not yet prove urgency, buyer pull, or differentiated distribution."
+    ],
+    "score": {
+      "team": 14,
+      "product": 20,
+      "market": 9,
+      "traction": 19,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 10.",
+          "Team size looks seed-stage and focused."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: ai, artificial, intelligence.",
+          "Matches topic terms: ai, artificial, business, intelligence, local."
+        ],
+        "market": [
+          "Source text points to SMB or local-operator buyers.",
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Hiring appears in source signals.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 77
+    },
+    "recommendation": "Watch",
+    "rationale": "Score 77/100 suggests the company matches parts of the thesis, but the public evidence is not yet strong enough for immediate partner time.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "Evidence that the workflow expands beyond a narrow tool into a system of record or labor-replacement wedge."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "Rocketable",
+      "website": "https://www.rocketable.com",
+      "one_liner": "The AI Maximalist Software Holding Company",
+      "team_signal": "YC Winter 2025, team size 2, Early, B2B",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "YC launched/listed date: 2025-01-23",
+        "Team size listed as 2"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/rocketable",
+      "tags": [
+        "B2B"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "Rocketable",
+          "url": "https://www.ycombinator.com/companies/rocketable",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "Rocketable is building a large portfolio of wildly profitable software businesses by acquiring existing products and replacing human teams with AI agents. Today's foundation models already possess enough intelligence to automate most of the tasks required to run a profitable software business. In the functions where a...",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 2,
+            "industry": "B2B",
+            "tags": [],
+            "website": "https://www.rocketable.com"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30217,
+        "name": "Rocketable",
+        "slug": "rocketable",
+        "former_names": [
+          "Ponti Capital"
+        ],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bc12cf4638585675745dadeea5e4a62aec1543cb.png",
+        "website": "https://www.rocketable.com",
+        "all_locations": "San Francisco, CA, USA; Remote",
+        "long_description": "Rocketable is building a large portfolio of wildly profitable software businesses by acquiring existing products and replacing human teams with AI agents.\r\n\r\nToday\u2019s foundation models already possess enough intelligence to automate most of the tasks required to run a profitable software business. In the functions where agents aren\u2019t yet intelligent enough to replace humans, they will be soon.\r\n\r\nWhen every human function required to operate a software product has an AI agent equivalent, the next step will be within reach: operating an entire company with a team of AI agents instead of humans.\r\n\r\nBut superintelligent agents within each function won\u2019t be enough. To operate a software company with 0 human employees, the agents will need to be directed towards common goals, integrated to collaborate across functions, tuned with feedback loops connected to product metrics, and trained to make resource allocation decisions.\r\n\r\nWe are creating the tools needed to replace the entire org chart of a software company with a team of AI agents. We are developing these tools by owning the products that we automate, because we know from 10+ years of experience building automated systems with AI/ML that integration is the key to unlocking superhuman performance.",
+        "one_liner": "The AI Maximalist Software Holding Company",
+        "team_size": 2,
+        "industry": "B2B",
+        "subindustry": "B2B",
+        "launched_at": 1737653057,
+        "tags": [],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": false,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "B2B"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada",
+          "Remote",
+          "Fully Remote"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": true,
+        "url": "https://www.ycombinator.com/companies/rocketable",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/rocketable.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 2, Early, B2B. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "Rocketable: Rocketable is building a large portfolio of wildly profitable software businesses by acquiring existing products and replacing human teams with AI agents. Today's foundation models already possess enough intelligence to automate most of the tasks required to run a profitable software business. In the functions where agents aren't yet intelligent enough to replace humans, they will be soon. When every hum...",
+    "market": "The beachhead is B2B. Tags/signals: B2B. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification.",
+      "The current evidence does not yet prove urgency, buyer pull, or differentiated distribution."
+    ],
+    "score": {
+      "team": 14,
+      "product": 20,
+      "market": 9,
+      "traction": 16,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 2.",
+          "Team size looks seed-stage and focused."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: agents, ai, automate, intelligence.",
+          "Matches topic terms: agents, ai, automate, business, businesses, intelligence."
+        ],
+        "market": [
+          "Source text points to SMB or local-operator buyers.",
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 74
+    },
+    "recommendation": "Watch",
+    "rationale": "Score 74/100 suggests the company matches parts of the thesis, but the public evidence is not yet strong enough for immediate partner time.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "Evidence that the workflow expands beyond a narrow tool into a system of record or labor-replacement wedge."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "Scout",
+      "website": "https://scoutforschools.com/",
+      "one_liner": "AI-powered student information system for K-12 schools",
+      "team_signal": "YC Winter 2025, team size 8, Early, Education",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "Hiring signal on YC profile",
+        "YC launched/listed date: 2025-01-27",
+        "Team size listed as 8"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/scout-4",
+      "tags": [
+        "Artificial Intelligence",
+        "Education",
+        "Workflow Automation",
+        "Education"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "Scout",
+          "url": "https://www.ycombinator.com/companies/scout-4",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "The student information system (SIS) is the core system of record in every K-12 school. It tracks students, attendance, grades, schedules, staff, and more - kind of like the ERP for schools. Legacy SIS providers do just about that, and not much more. School districts layer dozens of tools on top of their SIS to fill i...",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 8,
+            "industry": "Education",
+            "tags": [
+              "Artificial Intelligence",
+              "Education",
+              "Workflow Automation"
+            ],
+            "website": "https://scoutforschools.com/"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30205,
+        "name": "Scout",
+        "slug": "scout-4",
+        "former_names": [],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e9b6cad93f23ac155f617f2d95c1556389ee69e1.png",
+        "website": "https://scoutforschools.com/",
+        "all_locations": "New York, NY, USA",
+        "long_description": "The student information system (SIS) is the core system of record in every K-12 school. It tracks students, attendance, grades, schedules, staff, and more - kind of like the ERP for schools.\r\n\r\nLegacy SIS providers do just about that, and not much more. School districts layer dozens of tools on top of their SIS to fill in the gaps.\r\n\r\nScout is an AI-powered student information system that automates school- and district-wide busywork, from day-to-day operations like attendance tracking to annual compliance reports. Our mission is to help school districts run like high-performing organizations, enabling them to provide high-quality, personalized instruction to every student.",
+        "one_liner": "AI-powered student information system for K-12 schools",
+        "team_size": 8,
+        "industry": "Education",
+        "subindustry": "Education",
+        "launched_at": 1737960750,
+        "tags": [
+          "Artificial Intelligence",
+          "Education",
+          "Workflow Automation"
+        ],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": true,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "Education"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": false,
+        "url": "https://www.ycombinator.com/companies/scout-4",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/scout-4.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 8, Early, Education. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "Scout: The student information system (SIS) is the core system of record in every K-12 school. It tracks students, attendance, grades, schedules, staff, and more - kind of like the ERP for schools. Legacy SIS providers do just about that, and not much more. School districts layer dozens of tools on top of their SIS to fill in the gaps. Scout is an AI-powered student information system that automates school- and dist...",
+    "market": "The beachhead is Education. Tags/signals: Artificial Intelligence, Education, Workflow Automation, Education. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification.",
+      "The current evidence does not yet prove urgency, buyer pull, or differentiated distribution."
+    ],
+    "score": {
+      "team": 17,
+      "product": 20,
+      "market": 3,
+      "traction": 19,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 8.",
+          "Team size looks seed-stage and focused.",
+          "Description suggests technical depth or automation competence."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: ai, artificial, automation, intelligence, workflow.",
+          "Matches topic terms: ai, artificial, automation, intelligence, workflow."
+        ],
+        "market": [
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Hiring appears in source signals.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 74
+    },
+    "recommendation": "Watch",
+    "rationale": "Score 74/100 suggests the company matches parts of the thesis, but the public evidence is not yet strong enough for immediate partner time.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "Evidence that the workflow expands beyond a narrow tool into a system of record or labor-replacement wedge."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "Browser Use",
+      "website": "https://browser-use.com",
+      "one_liner": "Leading open-source web agent project with 50k stars in 3 months",
+      "team_signal": "YC Winter 2025, team size 7, Early, B2B",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "Hiring signal on YC profile",
+        "YC launched/listed date: 2024-12-20",
+        "Team size listed as 7"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/browser-use",
+      "tags": [
+        "Artificial Intelligence",
+        "Open Source",
+        "API",
+        "Automation",
+        "B2B"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "Browser Use",
+          "url": "https://www.ycombinator.com/companies/browser-use",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "We enable AI to control the browser. Browser-use is the biggest open-source web agent project. We got 40k stars in the last 3 months.",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 7,
+            "industry": "B2B",
+            "tags": [
+              "Artificial Intelligence",
+              "Open Source",
+              "API",
+              "Automation"
+            ],
+            "website": "https://browser-use.com"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30341,
+        "name": "Browser Use",
+        "slug": "browser-use",
+        "former_names": [
+          "browser-use"
+        ],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c098c79c1154d878f59439428e54fe98a83295a2.png",
+        "website": "https://browser-use.com",
+        "all_locations": "San Francisco, CA, USA",
+        "long_description": "We enable AI to control the browser. \r\nBrowser-use is the biggest open-source web agent project. \r\nWe got 40k stars in the last 3 months.",
+        "one_liner": "Leading open-source web agent project with 50k stars in 3 months",
+        "team_size": 7,
+        "industry": "B2B",
+        "subindustry": "B2B",
+        "launched_at": 1734712888,
+        "tags": [
+          "Artificial Intelligence",
+          "Open Source",
+          "API",
+          "Automation"
+        ],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": true,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "B2B"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": false,
+        "url": "https://www.ycombinator.com/companies/browser-use",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/browser-use.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 7, Early, B2B. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "Browser Use: We enable AI to control the browser. Browser-use is the biggest open-source web agent project. We got 40k stars in the last 3 months.",
+    "market": "The beachhead is B2B. Tags/signals: Artificial Intelligence, Open Source, API, Automation, B2B. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification.",
+      "The current evidence does not yet prove urgency, buyer pull, or differentiated distribution."
+    ],
+    "score": {
+      "team": 17,
+      "product": 20,
+      "market": 3,
+      "traction": 19,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 7.",
+          "Team size looks seed-stage and focused.",
+          "Description suggests technical depth or automation competence."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: agent, ai, artificial, automation, intelligence.",
+          "Matches topic terms: agent, ai, artificial, automation, intelligence."
+        ],
+        "market": [
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Hiring appears in source signals.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 74
+    },
+    "recommendation": "Watch",
+    "rationale": "Score 74/100 suggests the company matches parts of the thesis, but the public evidence is not yet strong enough for immediate partner time.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "Evidence that the workflow expands beyond a narrow tool into a system of record or labor-replacement wedge."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "Waypoint Transit",
+      "website": "https://waypointtransit.com",
+      "one_liner": "We automate urban planning so cities can build cheaper and faster.",
+      "team_signal": "YC Winter 2025, team size 2, Early, Government",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "Hiring signal on YC profile",
+        "YC launched/listed date: 2025-02-06",
+        "Team size listed as 2"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/waypoint-transit",
+      "tags": [
+        "Government"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "Waypoint Transit",
+          "url": "https://www.ycombinator.com/companies/waypoint-transit",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "Waypoint Transit is an AI city planner that generates civil infrastructure studies. Cities spend $50B/year on planning. With Waypoint, cities can generate reports in months rather than years, and at 30% of the cost. Varun and Ryan met at Stanford, where they graduated with degrees in CS and EE respectively. Before fou...",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 2,
+            "industry": "Government",
+            "tags": [],
+            "website": "https://waypointtransit.com"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30281,
+        "name": "Waypoint Transit",
+        "slug": "waypoint-transit",
+        "former_names": [],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/01d8fc8778559bd4b0a49a7f77d4d7cd0c4c3f19.png",
+        "website": "https://waypointtransit.com",
+        "all_locations": "",
+        "long_description": "Waypoint Transit is an AI city planner that generates civil infrastructure studies. Cities spend $50B/year on planning. With Waypoint, cities can generate reports in months rather than years, and at 30% of the cost.\r\n\r\nVarun and Ryan met at Stanford, where they graduated with degrees in CS and EE respectively. Before founding Waypoint, Varun worked on AI at Microsoft and Ryan worked on chip design at Apple.\r\n\r\nUS cities are facing three major crises: congestion, budget deficits, and climate change. At the same time, city governments are understaffed and frequently need to contract work out to expensive consultants. Leveraging recent advancements in AI, we empower cities to reduce their costs, build infrastructure, and respond to problems quickly.\r\n\r\nIn the United States, state and local governments spend $50B/year on planning. Through automation, we can redefine the existing transportation and urban planning consulting markets.\r\n\r\nFor more information, visit waypointtransit.com or contact us at contact@waypointtransit.com.",
+        "one_liner": "We automate urban planning so cities can build cheaper and faster.",
+        "team_size": 2,
+        "industry": "Government",
+        "subindustry": "Government",
+        "launched_at": 1738877677,
+        "tags": [],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": true,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "Government"
+        ],
+        "regions": [
+          "Unspecified"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": false,
+        "url": "https://www.ycombinator.com/companies/waypoint-transit",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/waypoint-transit.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 2, Early, Government. The source text includes some founder/team context, but it still needs verification. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "Waypoint Transit: Waypoint Transit is an AI city planner that generates civil infrastructure studies. Cities spend $50B/year on planning. With Waypoint, cities can generate reports in months rather than years, and at 30% of the cost. Varun and Ryan met at Stanford, where they graduated with degrees in CS and EE respectively. Before founding Waypoint, Varun worked on AI at Microsoft and Ryan worked on chip design at...",
+    "market": "The beachhead is Government. Tags/signals: Government. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "The current evidence does not yet prove urgency, buyer pull, or differentiated distribution."
+    ],
+    "score": {
+      "team": 17,
+      "product": 17,
+      "market": 3,
+      "traction": 19,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 2.",
+          "Team size looks seed-stage and focused.",
+          "Description suggests technical depth or automation competence."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: ai, automate.",
+          "Matches topic terms: ai, automate."
+        ],
+        "market": [
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Hiring appears in source signals.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 71
+    },
+    "recommendation": "Watch",
+    "rationale": "Score 71/100 suggests the company matches parts of the thesis, but the public evidence is not yet strong enough for immediate partner time.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "Evidence that the workflow expands beyond a narrow tool into a system of record or labor-replacement wedge."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "Quantstruct",
+      "website": "https://quantstruct.com",
+      "one_liner": "AI documentation engineer - test & autoimprove stale product docs",
+      "team_signal": "YC Winter 2025, team size 2, Early, B2B",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "YC launched/listed date: 2025-01-12",
+        "Team size listed as 2"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/quantstruct",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B",
+        "API",
+        "Automation",
+        "B2B"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "Quantstruct",
+          "url": "https://www.ycombinator.com/companies/quantstruct",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "Quantstruct automatically creates and improves product documentation, implementation guides, and changelogs for API & SDK products, web-based enterprise software, and internal applications. Quantstruct identifies gaps in your knowledge base based on each product release or unfulfilled customer query. It uses multiple...",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 2,
+            "industry": "B2B",
+            "tags": [
+              "Artificial Intelligence",
+              "Developer Tools",
+              "B2B",
+              "API",
+              "Automation"
+            ],
+            "website": "https://quantstruct.com"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30160,
+        "name": "Quantstruct",
+        "slug": "quantstruct",
+        "former_names": [],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/64b5db172bf1cde01b3812d4221d26658881fead.png",
+        "website": "https://quantstruct.com",
+        "all_locations": "San Francisco, CA, USA",
+        "long_description": "Quantstruct automatically creates and improves product documentation, implementation guides, and changelogs for API & SDK products, web-based enterprise software, and internal applications.\r\n\r\nQuantstruct identifies gaps in your knowledge base based on each product release or unfulfilled customer query. It uses multiple AI agents to search existing knowledge sources, test existing docs for validity and style guidelines, and clicks, scrolls, and uses enterprise software through a web browser to generate docs with embedded screenshots and video recordings. Quanstruct is available as a cloud service to start, targeting technical writers, content writing, professional services, and product teams.\r\n\r\nTraditional generative AI tools risk hallucinating critical API & SDK fields, even with RAG based approaches. Purely agent-based approaches risk providing unpredictable output that can diverge from desired documentation processes. Finally, no company\u2019s review and publishing workflow is the same. Quantstruct is the easiest way to onboard and customize AI agents to continuously improve your documentation based on your customer needs and product evolution. https://quantstruct.com",
+        "one_liner": "AI documentation engineer \u2013\u00a0test & autoimprove stale product docs",
+        "team_size": 2,
+        "industry": "B2B",
+        "subindustry": "B2B",
+        "launched_at": 1736668232,
+        "tags": [
+          "Artificial Intelligence",
+          "Developer Tools",
+          "B2B",
+          "API",
+          "Automation"
+        ],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": false,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "B2B"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": false,
+        "url": "https://www.ycombinator.com/companies/quantstruct",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/quantstruct.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 2, Early, B2B. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "Quantstruct: Quantstruct automatically creates and improves product documentation, implementation guides, and changelogs for API & SDK products, web-based enterprise software, and internal applications. Quantstruct identifies gaps in your knowledge base based on each product release or unfulfilled customer query. It uses multiple AI agents to search existing knowledge sources, test existing docs for validity and sty...",
+    "market": "The beachhead is B2B. Tags/signals: Artificial Intelligence, Developer Tools, B2B, API, Automation. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification.",
+      "The current evidence does not yet prove urgency, buyer pull, or differentiated distribution."
+    ],
+    "score": {
+      "team": 17,
+      "product": 19,
+      "market": 3,
+      "traction": 16,
+      "risk": 15,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 2.",
+          "Team size looks seed-stage and focused.",
+          "Description suggests technical depth or automation competence."
+        ],
+        "product": [
+          "One-line product description is specific enough to parse.",
+          "AI/workflow terms found: ai, artificial, automation, intelligence.",
+          "Matches topic terms: ai, artificial, automation, intelligence."
+        ],
+        "market": [
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "No obvious source-level disqualifier found."
+        ]
+      },
+      "total": 70
+    },
+    "recommendation": "Watch",
+    "rationale": "Score 70/100 suggests the company matches parts of the thesis, but the public evidence is not yet strong enough for immediate partner time.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "Evidence that the workflow expands beyond a narrow tool into a system of record or labor-replacement wedge."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  },
+  {
+    "candidate": {
+      "name": "ZeroEntropy",
+      "website": "https://www.zeroentropy.dev",
+      "one_liner": "Artificial Specialized Intelligence",
+      "team_signal": "YC Winter 2025, team size 6, Early, B2B",
+      "traction_signals": [
+        "YC batch: Winter 2025",
+        "Stage: Early",
+        "Status: Active",
+        "Hiring signal on YC profile",
+        "YC launched/listed date: 2024-12-17",
+        "Team size listed as 6"
+      ],
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/zeroentropy",
+      "tags": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "evidence": [
+        {
+          "source": "YC public directory",
+          "title": "ZeroEntropy",
+          "url": "https://www.ycombinator.com/companies/zeroentropy",
+          "observed_at": "2026-06-24T07:23:15+00:00",
+          "snippet": "We are on a mission to build the world's most accurate, fastest, and cheapest task-specific models for every production AI system. Most AI products, whether copilots, agents, or search systems, depend on frontier LLMs to handle every step of their pipeline. Yet, the vast majority of these steps are narrow, repeatable...",
+          "facts": {
+            "batch": "Winter 2025",
+            "status": "Active",
+            "stage": "Early",
+            "team_size": 6,
+            "industry": "B2B",
+            "tags": [],
+            "website": "https://www.zeroentropy.dev"
+          }
+        }
+      ],
+      "raw": {
+        "id": 30241,
+        "name": "ZeroEntropy",
+        "slug": "zeroentropy",
+        "former_names": [],
+        "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6b2774c0442b4c923fff05f20dbced23d34ad02f.png",
+        "website": "https://www.zeroentropy.dev",
+        "all_locations": "San Francisco, CA, USA",
+        "long_description": "We are on a mission to build the world\u2019s most accurate, fastest, and cheapest task-specific models for every production AI system.\r\n\r\nMost AI products, whether copilots, agents, or search systems, depend on frontier LLMs to handle every step of their pipeline. \r\n\r\nYet, the vast majority of these steps are narrow, repeatable workloads: reranking, embedding, classification, routing, query rewriting, context compression, where frontier intelligence is overkill. \r\n\r\nRunning them on general-purpose models is slow and expensive, capping what production AI can achieve. \r\n\r\nThat is why we're building ZeroEntropy: to train small, task-specific models that replace frontier LLMs on these workloads, and empower developers to ship AI products that are more accurate, faster, and cheaper.",
+        "one_liner": "Artificial Specialized Intelligence",
+        "team_size": 6,
+        "industry": "B2B",
+        "subindustry": "B2B -> Infrastructure",
+        "launched_at": 1734458813,
+        "tags": [],
+        "tags_highlighted": [],
+        "top_company": false,
+        "isHiring": true,
+        "nonprofit": false,
+        "batch": "Winter 2025",
+        "status": "Active",
+        "industries": [
+          "B2B",
+          "Infrastructure"
+        ],
+        "regions": [
+          "United States of America",
+          "America / Canada"
+        ],
+        "stage": "Early",
+        "app_video_public": false,
+        "demo_day_video_public": false,
+        "app_answers": null,
+        "question_answers": false,
+        "url": "https://www.ycombinator.com/companies/zeroentropy",
+        "api": "https://yc-oss.github.io/api/batches/winter-2025/zeroentropy.json"
+      }
+    },
+    "thesis": "Invest at seed in vertical or SMB-focused AI workflow companies where a narrow, painful operational job can be automated end-to-end, the buyer can see ROI quickly, and the wedge can expand into a durable system of record or labor-replacement platform.",
+    "team": "YC Winter 2025, team size 6, Early, B2B. Named founder backgrounds were not exposed by the selected public source. Next diligence should verify founder-market fit and technical ownership.",
+    "product": "ZeroEntropy: We are on a mission to build the world's most accurate, fastest, and cheapest task-specific models for every production AI system. Most AI products, whether copilots, agents, or search systems, depend on frontier LLMs to handle every step of their pipeline. Yet, the vast majority of these steps are narrow, repeatable workloads: reranking, embedding, classification, routing, query rewriting, context comp...",
+    "market": "The beachhead is B2B. Tags/signals: B2B, Infrastructure. The thesis fit is strongest if the workflow is frequent, painful, and tied to measurable labor or revenue impact.",
+    "risks": [
+      "Founder backgrounds are not available from the selected source and need manual verification.",
+      "The current evidence does not yet prove urgency, buyer pull, or differentiated distribution."
+    ],
+    "score": {
+      "team": 17,
+      "product": 13,
+      "market": 3,
+      "traction": 19,
+      "risk": 12,
+      "reasons": {
+        "team": [
+          "YC profile gives at least a baseline accelerator-screened team signal.",
+          "Team size is listed as 6.",
+          "Team size looks seed-stage and focused.",
+          "Description suggests technical depth or automation competence."
+        ],
+        "product": [
+          "AI/workflow terms found: agents, ai, artificial, intelligence.",
+          "Matches topic terms: agents, ai, artificial, intelligence."
+        ],
+        "market": [
+          "AI adoption creates a credible why-now for workflow automation."
+        ],
+        "traction": [
+          "Recent YC batch year: 2025.",
+          "YC status is active.",
+          "Stage listed as Early.",
+          "Hiring appears in source signals.",
+          "Listed team has more than one person."
+        ],
+        "risk": [
+          "One-liner is too vague."
+        ]
+      },
+      "total": 64
+    },
+    "recommendation": "Watch",
+    "rationale": "Score 64/100 suggests the company matches parts of the thesis, but the public evidence is not yet strong enough for immediate partner time.",
+    "change_mind": [
+      "Verified founder backgrounds showing deep domain access or technical advantage.",
+      "Customer proof: named SMB or vertical customers, retention, expansion, or quantified ROI.",
+      "Evidence that the workflow expands beyond a narrow tool into a system of record or labor-replacement wedge."
+    ],
+    "confidence": "medium",
+    "analyst": "deterministic-heuristic"
+  }
+]
