@@ -1,0 +1,3 @@
+# Optional URL-list sourcing input.
+# Add one startup homepage or profile URL per line.
+https://www.toothy.ai/

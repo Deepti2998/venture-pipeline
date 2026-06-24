@@ -19,6 +19,11 @@ class UtilTests(unittest.TestCase):
     def test_slugify(self):
         self.assertEqual(slugify("AI Agents for SMBs!"), "ai-agents-for-smbs")
 
+    def test_compact_whitespace_normalizes_unicode_punctuation(self):
+        from venture_pipeline.util import compact_whitespace
+
+        self.assertEqual(compact_whitespace("We\u2019re fast\u2014really fast"), "We're fast - really fast")
+
 
 if __name__ == "__main__":
     unittest.main()

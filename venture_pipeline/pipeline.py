@@ -9,7 +9,7 @@ from .analysis.llm import OpenAIAnalyst
 from .http import HttpClient
 from .models import Analysis, Candidate, utc_now_iso
 from .render.memo import memo_filename, render_memo, render_run_report
-from .sources import HNSource, YCSource
+from .sources import HNSource, URLSource, YCSource
 from .util import slugify
 
 
@@ -19,6 +19,7 @@ class RunConfig:
     limit: int = 12
     sources: tuple[str, ...] = ("yc",)
     yc_batch: str | None = None
+    urls: tuple[str, ...] = ()
     out_dir: Path | None = None
     include_inactive: bool = False
     llm_mode: str = "auto"
@@ -36,6 +37,7 @@ def run_pipeline(config: RunConfig) -> RunResult:
     source_map = {
         "yc": YCSource(http),
         "hn": HNSource(http),
+        "url": URLSource(config.urls),
     }
     out_dir = config.out_dir or Path("outputs") / slugify(config.topic)
     memos_dir = out_dir / "memos"
@@ -47,6 +49,9 @@ def run_pipeline(config: RunConfig) -> RunResult:
         source = source_map.get(source_name)
         if not source:
             warnings.append(f"Unknown source '{source_name}' ignored.")
+            continue
+        if source_name == "url" and not config.urls:
+            warnings.append("URL source requested but no URLs were provided.")
             continue
         result = source.collect(
             config.topic,

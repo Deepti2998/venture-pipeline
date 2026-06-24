@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
+from .env import load_env_file
 from .pipeline import RunConfig, run_pipeline
 from .util import slugify
 
@@ -20,9 +21,15 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument(
         "--sources",
         default="yc",
-        help="Comma-separated sources. Supported: yc, hn. Default: yc.",
+        help="Comma-separated sources. Supported: yc, hn, url. Default: yc.",
     )
     run.add_argument("--yc-batch", default=None, help="Optional YC batch filter, for example W25 or Winter 2025.")
+    run.add_argument(
+        "--urls",
+        type=Path,
+        default=None,
+        help="Optional text file with one startup URL per line. Automatically enables the url source.",
+    )
     run.add_argument("--include-inactive", action="store_true", help="Include inactive/dead companies from sources.")
     run.add_argument(
         "--llm",
@@ -36,6 +43,12 @@ def build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Output directory. Defaults to outputs/<topic-slug>.",
     )
+    run.add_argument(
+        "--env-file",
+        type=Path,
+        default=None,
+        help="Optional local env file for OPENAI_API_KEY/OPENAI_MODEL. Do not commit this file.",
+    )
     return parser
 
 
@@ -48,6 +61,13 @@ def main(argv: list[str] | None = None) -> int:
 
     limit = max(1, min(args.limit, 25))
     sources = tuple(source.strip().lower() for source in args.sources.split(",") if source.strip())
+    urls = _read_urls(args.urls) if args.urls else ()
+    if urls and "url" not in sources:
+        sources = (*sources, "url")
+    if args.env_file:
+        loaded = load_env_file(args.env_file)
+        if loaded:
+            print(f"Loaded env keys from {args.env_file}: {', '.join(loaded)}")
     out_dir = args.out or Path("outputs") / slugify(args.topic)
     result = run_pipeline(
         RunConfig(
@@ -55,6 +75,7 @@ def main(argv: list[str] | None = None) -> int:
             limit=limit,
             sources=sources,
             yc_batch=args.yc_batch,
+            urls=urls,
             out_dir=out_dir,
             include_inactive=args.include_inactive,
             llm_mode=args.llm,
@@ -69,3 +90,14 @@ def main(argv: list[str] | None = None) -> int:
         for warning in result.warnings:
             print(f"- {warning}")
     return 0
+
+
+def _read_urls(path: Path) -> tuple[str, ...]:
+    if not path.exists():
+        raise FileNotFoundError(f"URL file not found: {path}")
+    urls = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if stripped and not stripped.startswith("#"):
+            urls.append(stripped)
+    return tuple(urls)

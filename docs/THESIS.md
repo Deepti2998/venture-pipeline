@@ -22,3 +22,9 @@ The assignment topic example, "AI agents for SMBs", is too broad by itself. The 
 - Risk-adjusted confidence: 15
 
 Scores are intentionally not valuation models. They are routing scores for partner attention.
+
+## Recommendation Bar
+
+- `Take a meeting`: 80+ and no source-level investability blocker.
+- `Watch`: 60-79, or clear thesis fit with insufficient proof.
+- `Pass`: below 60, or status/source evidence suggests the company is not investable for this seed thesis.

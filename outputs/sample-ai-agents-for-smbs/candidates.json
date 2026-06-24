@@ -26,7 +26,7 @@
         "source": "YC public directory",
         "title": "Quantstruct",
         "url": "https://www.ycombinator.com/companies/quantstruct",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "Quantstruct automatically creates and improves product documentation, implementation guides, and changelogs for API & SDK products, web-based enterprise software, and internal applications. Quantstruct identifies gaps in your knowledge base based on each product release or unfulfilled customer query. It uses multiple...",
         "facts": {
           "batch": "Winter 2025",
@@ -110,7 +110,7 @@
         "source": "YC public directory",
         "title": "Rocketable",
         "url": "https://www.ycombinator.com/companies/rocketable",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "Rocketable is building a large portfolio of wildly profitable software businesses by acquiring existing products and replacing human teams with AI agents. Today's foundation models already possess enough intelligence to automate most of the tasks required to run a profitable software business. In the functions where a...",
         "facts": {
           "batch": "Winter 2025",
@@ -193,7 +193,7 @@
         "source": "YC public directory",
         "title": "Toothy AI",
         "url": "https://www.ycombinator.com/companies/toothy-ai",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "We're Toothy.ai. We're building AI agents for dental practices that handle everything related to patient insurance. The average dental clinic spends over 160 hours a month on insurance tasks like verifying patient policies, billing, and claims processing. Our AI agents automate this entire workflow - including making...",
         "facts": {
           "batch": "Winter 2025",
@@ -283,7 +283,7 @@
         "source": "YC public directory",
         "title": "Waypoint Transit",
         "url": "https://www.ycombinator.com/companies/waypoint-transit",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "Waypoint Transit is an AI city planner that generates civil infrastructure studies. Cities spend $50B/year on planning. With Waypoint, cities can generate reports in months rather than years, and at 30% of the cost. Varun and Ryan met at Stanford, where they graduated with degrees in CS and EE respectively. Before fou...",
         "facts": {
           "batch": "Winter 2025",
@@ -358,7 +358,7 @@
         "source": "YC public directory",
         "title": "hud",
         "url": "https://www.ycombinator.com/companies/hud",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "HUD (YC W25) is developing agentic evals and RL environments for Computer Use Agents (CUAs) that browse the web for frontier AI labs. Our CUA Evals framework is the first comprehensive evaluation tool for CUAs. People don't actually know if AI agents are working reliably. To make AI agents work in the real world, we n...",
         "facts": {
           "batch": "Winter 2025",
@@ -447,7 +447,7 @@
         "source": "YC public directory",
         "title": "Leaping AI",
         "url": "https://www.ycombinator.com/companies/leaping-ai",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "Leaping AI is the best platform to deploy voice and texting AI agents for customer service, lead qualification and appointment scheduling. We target mid-market and Enterprise companies and industries are: home remodeling, roofing, pay per call, travel, retail, health insurance, Medicare, health and real estate. We aut...",
         "facts": {
           "batch": "Winter 2025",
@@ -533,7 +533,7 @@
         "source": "YC public directory",
         "title": "Scout",
         "url": "https://www.ycombinator.com/companies/scout-4",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "The student information system (SIS) is the core system of record in every K-12 school. It tracks students, attendance, grades, schedules, staff, and more - kind of like the ERP for schools. Legacy SIS providers do just about that, and not much more. School districts layer dozens of tools on top of their SIS to fill i...",
         "facts": {
           "batch": "Winter 2025",
@@ -618,7 +618,7 @@
         "source": "YC public directory",
         "title": "Browser Use",
         "url": "https://www.ycombinator.com/companies/browser-use",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "We enable AI to control the browser. Browser-use is the biggest open-source web agent project. We got 40k stars in the last 3 months.",
         "facts": {
           "batch": "Winter 2025",
@@ -704,7 +704,7 @@
         "source": "YC public directory",
         "title": "ZeroEntropy",
         "url": "https://www.ycombinator.com/companies/zeroentropy",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "We are on a mission to build the world's most accurate, fastest, and cheapest task-specific models for every production AI system. Most AI products, whether copilots, agents, or search systems, depend on frontier LLMs to handle every step of their pipeline. Yet, the vast majority of these steps are narrow, repeatable...",
         "facts": {
           "batch": "Winter 2025",
@@ -783,7 +783,7 @@
         "source": "YC public directory",
         "title": "Dex",
         "url": "https://www.ycombinator.com/companies/joindex",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "ThirdLayer is an applied research and product lab building the next interface for human - AI collaboration. Our first product is Dex, an AI copilot for the browser. Think Cursor for knowledge work, optimized for speed and embedded directly where you work. Most web agents are built for set-and-forget tasks. But real wo...",
         "facts": {
           "batch": "Winter 2025",
@@ -878,7 +878,7 @@
         "source": "YC public directory",
         "title": "Mastra",
         "url": "https://www.ycombinator.com/companies/mastra",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "Mastra is the easiest way to build a production AI application, built by the team that brought you Gatsby. We provide a complete set of AI primitives: workflows for complex operations, agents for autonomous decisions, RAG for knowledge integration, and evals for quality & accuracy. Mastra is open-source, modular, and...",
         "facts": {
           "batch": "Winter 2025",
@@ -966,7 +966,7 @@
         "source": "YC public directory",
         "title": "Closure",
         "url": "https://www.ycombinator.com/companies/closure",
-        "observed_at": "2026-06-24T07:23:15+00:00",
+        "observed_at": "2026-06-24T08:15:38+00:00",
         "snippet": "Law enforcement is drowning in data. Closure helps search it to solve crime. - Hiring: UX, Engineering, AI, Ops, Business Development - Supporting: law enforcement throughout the country - Expanding: Local, state, and federal law enforcement.",
         "facts": {
           "batch": "Winter 2025",

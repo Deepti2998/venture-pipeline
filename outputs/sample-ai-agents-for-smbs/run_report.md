@@ -2,7 +2,7 @@
 
 - Topic: AI agents for SMBs
 - Sources: yc
-- Generated: 2026-06-24T07:23:15+00:00
+- Generated: 2026-06-24T08:15:38+00:00
 - Candidates analyzed: 12
 
 ## Results

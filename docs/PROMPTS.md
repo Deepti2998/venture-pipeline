@@ -16,3 +16,28 @@ Constraints:
 ```
 
 The model is not allowed to change the score or recommendation. That keeps source-of-truth logic deterministic and makes the LLM a prose editor rather than an untraceable decision maker.
+
+## API Shape
+
+The adapter calls `POST /v1/responses` and requests Structured Outputs with `text.format.type = json_schema`.
+
+Default model:
+
+```text
+gpt-5.4-mini
+```
+
+The expected JSON keys are:
+
+```json
+{
+  "team": "string",
+  "product": "string",
+  "market": "string",
+  "rationale": "string",
+  "risks": ["string"],
+  "change_mind": ["string"]
+}
+```
+
+This keeps the LLM feature useful but bounded: it can improve memo prose, not silently alter the investment decision.

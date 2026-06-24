@@ -1,12 +1,12 @@
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "Quantstruct", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "Rocketable", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "Toothy AI", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "Waypoint Transit", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "hud", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "Leaping AI", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "Scout", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "Browser Use", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "ZeroEntropy", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "Dex", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "Mastra", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
-{"observed_at": "2026-06-24T07:23:15+00:00", "candidate": "Closure", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "Quantstruct", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "Rocketable", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "Toothy AI", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "Waypoint Transit", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "hud", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "Leaping AI", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "Scout", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "Browser Use", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "ZeroEntropy", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "Dex", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "Mastra", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
+{"observed_at": "2026-06-24T08:15:38+00:00", "candidate": "Closure", "base_analyst": "deterministic-heuristic", "llm_mode": "never", "llm_used": false}
