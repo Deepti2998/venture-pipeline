@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Venture Pipeline</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17202a;
+        --muted: #5f6b7a;
+        --line: #d8dee8;
+        --panel: #ffffff;
+        --page: #f5f7fb;
+        --accent: #0f766e;
+        --accent-ink: #ffffff;
+        --watch: #8a5a00;
+        --meet: #0b6b3a;
+        --pass: #8d2731;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--page);
+        color: var(--ink);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      button,
+      input,
+      select {
+        font: inherit;
+      }
+
+      .app {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        min-height: 100vh;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 16px 22px;
+        border-bottom: 1px solid var(--line);
+        background: #ffffff;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 18px;
+        letter-spacing: 0;
+      }
+
+      .status {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: minmax(320px, 420px) minmax(0, 1fr);
+        min-height: 0;
+      }
+
+      aside {
+        border-right: 1px solid var(--line);
+        background: #ffffff;
+        padding: 18px;
+        overflow: auto;
+      }
+
+      .workspace {
+        min-width: 0;
+        padding: 18px;
+        overflow: auto;
+      }
+
+      label {
+        display: block;
+        margin: 0 0 6px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 650;
+        text-transform: uppercase;
+      }
+
+      input,
+      select {
+        width: 100%;
+        height: 38px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #ffffff;
+        color: var(--ink);
+        padding: 0 10px;
+      }
+
+      .field {
+        margin-bottom: 14px;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .run {
+        width: 100%;
+        height: 40px;
+        border: 0;
+        border-radius: 6px;
+        background: var(--accent);
+        color: var(--accent-ink);
+        cursor: pointer;
+        font-weight: 700;
+      }
+
+      .run:disabled {
+        cursor: wait;
+        opacity: 0.65;
+      }
+
+      .summary {
+        margin-top: 16px;
+        padding-top: 14px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.45;
+      }
+
+      .results {
+        display: grid;
+        gap: 10px;
+      }
+
+      .result {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: var(--panel);
+        padding: 12px;
+        text-align: left;
+        cursor: pointer;
+      }
+
+      .result[aria-selected="true"] {
+        border-color: var(--accent);
+        box-shadow: inset 3px 0 0 var(--accent);
+      }
+
+      .result-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+      }
+
+      .name {
+        font-weight: 750;
+      }
+
+      .score {
+        font-variant-numeric: tabular-nums;
+        font-weight: 750;
+      }
+
+      .call {
+        display: inline-flex;
+        margin-top: 8px;
+        border-radius: 999px;
+        padding: 3px 8px;
+        font-size: 12px;
+        font-weight: 750;
+      }
+
+      .call.meeting {
+        background: #dff6e9;
+        color: var(--meet);
+      }
+
+      .call.watch {
+        background: #fff0c2;
+        color: var(--watch);
+      }
+
+      .call.pass {
+        background: #ffe2e5;
+        color: var(--pass);
+      }
+
+      .one-liner {
+        margin: 8px 0 0;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.4;
+      }
+
+      .memo {
+        background: #ffffff;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        min-height: calc(100vh - 106px);
+        padding: 20px;
+      }
+
+      .memo h2 {
+        margin: 0 0 8px;
+        font-size: 22px;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 14px;
+        margin-bottom: 18px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      section {
+        border-top: 1px solid var(--line);
+        padding-top: 14px;
+        margin-top: 14px;
+      }
+
+      h3 {
+        margin: 0 0 8px;
+        font-size: 14px;
+      }
+
+      p,
+      li {
+        color: #2b3745;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .empty,
+      .error {
+        background: #ffffff;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 18px;
+        color: var(--muted);
+      }
+
+      .error {
+        border-color: #e3a1a8;
+        color: var(--pass);
+      }
+
+      @media (max-width: 860px) {
+        main {
+          grid-template-columns: 1fr;
+        }
+
+        aside {
+          border-right: 0;
+          border-bottom: 1px solid var(--line);
+        }
+
+        .grid,
+        .row {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>Venture Pipeline</h1>
+        <div class="status" id="status">Ready</div>
+      </header>
+      <main>
+        <aside>
+          <form id="form">
+            <div class="field">
+              <label for="topic">Topic</label>
+              <input id="topic" name="topic" value="AI agents for SMBs" maxlength="160" required />
+            </div>
+            <div class="row">
+              <div class="field">
+                <label for="batch">YC batch</label>
+                <input id="batch" name="batch" value="W25" maxlength="40" />
+              </div>
+              <div class="field">
+                <label for="limit">Limit</label>
+                <select id="limit" name="limit">
+                  <option>8</option>
+                  <option selected>10</option>
+                  <option>12</option>
+                  <option>15</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="llm">Memo prose</label>
+              <select id="llm" name="llm">
+                <option value="never" selected>Deterministic</option>
+                <option value="auto">OpenAI if configured</option>
+              </select>
+            </div>
+            <button class="run" id="run" type="submit">Run Pipeline</button>
+          </form>
+          <div class="summary" id="summary">
+            Runs YC sourcing, deterministic scoring, and memo rendering inside a Vercel Python function.
+          </div>
+          <div class="summary">
+            <a href="https://github.com/Deepti2998/venture-pipeline" target="_blank" rel="noreferrer">GitHub repo</a>
+          </div>
+        </aside>
+        <div class="workspace">
+          <div class="grid">
+            <div class="results" id="results"></div>
+            <article class="memo" id="memo">
+              <div class="empty">Run the pipeline to inspect ranked startups and one-page memos.</div>
+            </article>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      const form = document.querySelector("#form");
+      const statusEl = document.querySelector("#status");
+      const summaryEl = document.querySelector("#summary");
+      const resultsEl = document.querySelector("#results");
+      const memoEl = document.querySelector("#memo");
+      const runButton = document.querySelector("#run");
+      let currentResults = [];
+
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        runButton.disabled = true;
+        statusEl.textContent = "Running";
+        resultsEl.innerHTML = "";
+        memoEl.innerHTML = '<div class="empty">Sourcing and scoring companies...</div>';
+
+        const body = {
+          topic: form.topic.value,
+          yc_batch: form.batch.value,
+          limit: Number(form.limit.value),
+          llm: form.llm.value,
+          sources: "yc"
+        };
+
+        try {
+          const response = await fetch("/api/run", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(body)
+          });
+          const data = await response.json();
+          if (!response.ok) throw new Error(data.error || "Pipeline failed");
+          currentResults = data.results || [];
+          renderResults(currentResults);
+          if (currentResults[0]) renderMemo(currentResults[0]);
+          summaryEl.textContent = `${currentResults.length} companies analyzed for "${data.topic}". ${data.warnings?.length ? data.warnings.join(" ") : "No warnings."}`;
+          statusEl.textContent = "Complete";
+        } catch (error) {
+          statusEl.textContent = "Error";
+          memoEl.innerHTML = `<div class="error">${escapeHtml(error.message)}</div>`;
+        } finally {
+          runButton.disabled = false;
+        }
+      });
+
+      function renderResults(results) {
+        if (!results.length) {
+          resultsEl.innerHTML = '<div class="empty">No companies returned.</div>';
+          return;
+        }
+        resultsEl.innerHTML = results
+          .map((item, index) => `
+            <button class="result" type="button" data-index="${index}" aria-selected="${index === 0}">
+              <div class="result-top">
+                <span class="name">${escapeHtml(item.name)}</span>
+                <span class="score">${item.score}/100</span>
+              </div>
+              <span class="call ${callClass(item.recommendation)}">${escapeHtml(item.recommendation)}</span>
+              <p class="one-liner">${escapeHtml(item.one_liner || "")}</p>
+            </button>
+          `)
+          .join("");
+        resultsEl.querySelectorAll(".result").forEach((button) => {
+          button.addEventListener("click", () => {
+            resultsEl.querySelectorAll(".result").forEach((item) => item.setAttribute("aria-selected", "false"));
+            button.setAttribute("aria-selected", "true");
+            renderMemo(currentResults[Number(button.dataset.index)]);
+          });
+        });
+      }
+
+      function renderMemo(item) {
+        memoEl.innerHTML = `
+          <h2>${escapeHtml(item.name)}</h2>
+          <div class="meta">
+            <span>${escapeHtml(item.recommendation)}</span>
+            <span>${item.score}/100</span>
+            <span>${escapeHtml(item.confidence)} confidence</span>
+            ${item.website ? `<a href="${escapeAttr(item.website)}" target="_blank" rel="noreferrer">Website</a>` : ""}
+            <a href="${escapeAttr(item.source_url)}" target="_blank" rel="noreferrer">Source</a>
+          </div>
+          ${section("Rationale", `<p>${escapeHtml(item.rationale)}</p>`)}
+          ${section("Team", `<p>${escapeHtml(item.team)}</p>`)}
+          ${section("Product", `<p>${escapeHtml(item.product)}</p>`)}
+          ${section("Market", `<p>${escapeHtml(item.market)}</p>`)}
+          ${section("Traction Signals", list(item.traction_signals))}
+          ${section("Risks / Open Questions", list(item.risks))}
+          ${section("What Would Change My Mind", list(item.change_mind))}
+          ${section("Score Breakdown", scoreBreakdown(item.score_breakdown))}
+        `;
+      }
+
+      function section(title, body) {
+        return `<section><h3>${title}</h3>${body}</section>`;
+      }
+
+      function list(items = []) {
+        return `<ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
+      }
+
+      function scoreBreakdown(score) {
+        return list([
+          `Team: ${score.team}/20`,
+          `Product: ${score.product}/25`,
+          `Market: ${score.market}/20`,
+          `Traction: ${score.traction}/20`,
+          `Risk-adjusted confidence: ${score.risk}/15`
+        ]);
+      }
+
+      function callClass(value) {
+        if (value === "Take a meeting") return "meeting";
+        if (value === "Watch") return "watch";
+        return "pass";
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function escapeAttr(value) {
+        return escapeHtml(value).replaceAll("`", "&#096;");
+      }
+    </script>
+  </body>
+</html>

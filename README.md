@@ -71,6 +71,22 @@ python -m venture_pipeline run --topic "AI agents for SMBs" --yc-batch W25 --llm
 python -m unittest discover -s tests
 ```
 
+## Vercel Web Tester
+
+This repo also includes a minimal Vercel UI:
+
+- `index.html`: browser test surface
+- `api/run.py`: Python serverless endpoint that runs the deterministic pipeline
+- `api/health.py`: health check endpoint
+
+Deploy from the Vercel dashboard by importing `Deepti2998/venture-pipeline`, or run:
+
+```powershell
+npx vercel --prod
+```
+
+The deployed web tester defaults to deterministic mode so it does not need secrets. To enable OpenAI memo polishing on Vercel, add `OPENAI_API_KEY` and optionally `OPENAI_MODEL` in the Vercel project environment variables.
+
 ## Submission Notes
 
 Before submitting:

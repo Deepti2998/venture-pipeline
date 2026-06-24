@@ -1,0 +1,10 @@
+{
+  "name": "venture-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "python -m unittest discover -s tests",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}

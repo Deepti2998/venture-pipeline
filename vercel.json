@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": null,
+  "functions": {
+    "api/*.py": {
+      "maxDuration": 30,
+      "excludeFiles": "{tests/**,outputs/**,docs/**,.git/**,*.zip}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ]
+}
